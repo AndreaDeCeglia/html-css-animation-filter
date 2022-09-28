@@ -57,3 +57,24 @@ esercizio4:
 .ex-4-square{
   transition: 1s;
 }
+
+/* 
+esercizio5: 
+1-suare in html;
+2-temporizzo la transition;
+3-hover su square e set tranform;
+4-active su square e set transform.
+*/
+
+.ex-5-square {
+  transition: 1s;
+}
+
+.ex-5-square:hover {
+  transform: scale(3);
+  border-radius: 100%;
+}
+
+.ex-5-square:active {
+  transform: scale(.3);
+}
