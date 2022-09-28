@@ -89,6 +89,7 @@ esercizio5:
 /* chiedere perchè persiste il border-radius nell'active */
 
 
+
 /* 
 esercizio6: 
 1-img in html;
@@ -99,3 +100,21 @@ esercizio6:
 .ex-6-img:hover {
   filter: grayscale(1);
 }
+
+
+
+/* 
+esercizio7: 
+1-img in html;
+2-temporizzare la transition in img;
+3-hover & set filter
+*/
+
+.ex-7-img {
+  transition: 1s;
+}
+
+.ex-7-img:hover {
+  filter: grayscale(1);
+}
+
