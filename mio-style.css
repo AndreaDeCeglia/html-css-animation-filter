@@ -162,7 +162,7 @@ esercizio9:
 /* 
 esercizio10: 
 1-icon in html;
-2-set animation nell'img;
+2-set animation nell'icon;
 3-set keyframes.
 */
 
@@ -173,5 +173,31 @@ esercizio10:
 @keyframes spin {
   0% {
     transform: rotate(1turn);
+  }
+}
+
+
+
+/* 
+esercizio11: 
+1-icon in html;
+2-hover su icon;
+3-set animation nell'icon;
+4-set keyframes.
+*/
+
+.ex-11-icon:hover {
+  animation: spin 2s linear;
+}
+
+@keyframes spin {
+  0%{
+    transform: rotate(0);
+  }
+  75%{
+    transform: rotate(270deg);
+  }
+  100%{
+    transform: rotate(0);
   }
 }
