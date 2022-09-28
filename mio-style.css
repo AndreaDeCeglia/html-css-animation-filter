@@ -12,3 +12,18 @@
 .ex-1-square{
   transition:  background-color 2s;
 }
+
+/* 
+esercizio2:
+1- trovare il quadratino in html;
+2-click prolungato sul quadratino;
+3-temporizzo il click.
+*/
+
+.ex-2-square {
+  transition: 1s;
+}
+
+.ex-2-square:active {
+  width: 100%;
+}
