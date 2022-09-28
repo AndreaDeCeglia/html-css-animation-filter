@@ -27,3 +27,18 @@ esercizio2:
 .ex-2-square:active {
   width: 100%;
 }
+
+/* 
+esercizio3:
+1-square in html;
+2-hover su square;
+3-temporizzo la trasformazione.
+*/
+
+.ex-3-square {
+  transition: 2s;
+}
+
+.ex-3-square:hover{
+  border-radius: 100%;
+}
