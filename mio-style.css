@@ -13,6 +13,8 @@
   transition:  background-color 2s;
 }
 
+
+
 /* 
 esercizio2:
 1- trovare il quadratino in html;
@@ -27,6 +29,8 @@ esercizio2:
 .ex-2-square:active {
   width: 100%;
 }
+
+
 
 /* 
 esercizio3:
@@ -43,6 +47,8 @@ esercizio3:
   border-radius: 100%;
 }
 
+
+
 /* 
 esercizio4:
 1-square in html;
@@ -57,6 +63,8 @@ esercizio4:
 .ex-4-square{
   transition: 1s;
 }
+
+
 
 /* 
 esercizio5: 
@@ -77,4 +85,17 @@ esercizio5:
 
 .ex-5-square:active {
   transform: scale(.3);
+}
+/* chiedere perchè persiste il border-radius nell'active */
+
+
+/* 
+esercizio6: 
+1-img in html;
+2-hover su img;
+3-set filter nell'hover.
+*/
+
+.ex-6-img:hover {
+  filter: grayscale(1);
 }
