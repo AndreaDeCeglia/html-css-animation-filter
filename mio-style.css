@@ -118,3 +118,21 @@ esercizio7:
   filter: grayscale(1);
 }
 
+
+
+/* 
+esercizio8: 
+1-img in html;
+2-temporizzo transition in img;
+3-hover su img;
+4-set radius & filer nell'hover.
+*/
+
+.ex-8-img {
+  transition: 2s;
+}
+
+.ex-8-img:hover {
+  border-radius: 30px;
+  filter: grayscale(.5) sepia(.5);
+}
