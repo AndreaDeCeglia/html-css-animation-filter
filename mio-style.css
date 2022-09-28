@@ -247,3 +247,81 @@ esercizio12:
     right: 10%;
   }
 }
+
+
+
+/* 
+esercizio13:
+1-individuare il bottone ed i due div in html;
+2-hover al bottone e set animation per il top;
+3-set keyframes del top;
+4-hover al bottone e set animation per il bottom;
+5-set keyframes per il bottom.
+*/
+
+/* top part */
+
+.ex-13-button:hover .ex-13-top-white {
+  animation: moveTopWhiteCompletely 2s linear;
+}
+
+@keyframes moveTopWhiteCompletely {
+  0%{
+    left: 10%;
+    top: -10px;
+  }
+  30%{
+    left: calc(100% - 30px);
+    top: -10px;
+  }
+  45%{
+    left: calc(100% - 30px);
+    top: 100%;
+  }
+  75%{
+    left: -10px;
+    top: 100%;
+  }
+
+  90%{
+    left: -10px;
+    top: -10px;
+  }
+  100%{
+    left: 10%;
+    top: -10px;
+  }
+}
+
+/* bottom part */
+
+.ex-13-button:hover .ex-13-bottom-white {
+  animation: moveBottomWhiteCompletely 2s linear;
+}
+
+@keyframes moveBottomWhiteCompletely {
+  0%{
+    bottom: -10px;
+    right: 20%;
+  }
+  30%{
+    bottom: -10px;
+    right: calc(100% - 30px);
+  }
+  45%{
+    bottom: 100%;
+    right: calc(100% - 30px);
+  }
+  75%{
+    bottom: 100%;
+    right: -10px;
+  }
+  90%{
+    bottom: -10px;
+    right: -10px;
+  }
+  100%{
+    bottom: -10px;
+    right: 20px;
+  }
+}
