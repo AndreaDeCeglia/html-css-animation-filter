@@ -125,7 +125,7 @@ esercizio8:
 1-img in html;
 2-temporizzo transition in img;
 3-hover su img;
-4-set radius & filer nell'hover.
+4-set radius & filter nell'hover.
 */
 
 .ex-8-img {
@@ -135,4 +135,24 @@ esercizio8:
 .ex-8-img:hover {
   border-radius: 30px;
   filter: grayscale(.5) sepia(.5);
+}
+
+
+
+/* 
+esercizio9: 
+1-img in html;
+2-temposizzo transition in img;
+3-hover su img;
+4-set radius, filter & scale nell'hover.
+*/
+
+.ex-9-img {
+  transition: 2s;
+}
+
+.ex-9-img:hover {
+  border-radius: 30px;
+  filter: grayscale(.5) sepia(.5);
+  scale: 1.5;
 }
